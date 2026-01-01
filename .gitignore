@@ -1,0 +1,125 @@
+torchsketch/data/QuickDraw414k
+result/
+unprocessed_data/
+figures/
+*.png
+interpolation/interpolation_data
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv
+
+# PyTorch / Machine Learning
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.npy
+checkpoints/
+runs/
+wandb/
+tensorboard_logs/
+*.log
+
+# Datasets - 数据集文件（压缩包和解压后的数据）
+*.tar.gz
+*.tar
+*.zip
+*.rar
+*.7z
+*.gz
+torchsketch/data/QuickDraw414k/
+torchsketch/data/*/picture_files/
+torchsketch/data/*/coordinate_files/
+torchsketch/data/*/sketches_*/
+data/
+datasets/
+*.csv
+*.tsv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific - 项目特定的数据目录
+picture_files.tar.gz
+coordinate_files.tar.gz
+sketches_svg.zip
+sketches_png.zip
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+
