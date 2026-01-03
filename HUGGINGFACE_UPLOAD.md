@@ -65,3 +65,4 @@ model_path = hf_hub_download(
 https://huggingface.co/RyanStarFox/quickdraw-classifier-models/resolve/main/resnet18/best_model.pth
 ```
 
+
